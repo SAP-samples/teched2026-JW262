@@ -1,58 +1,65 @@
-# Containing Files
+[![REUSE status](test)](test)
 
-1. The LICENSE file:
-In most cases, the license for SAP sample projects is `Apache 2.0`.
+# Hands-on | SAP TechEd 2026
 
-2. The REUSE.toml file: 
-The [Reuse Tool](https://reuse.software/) must be used for your samples project. You can find the REUSE.toml in the project initial. Please replace the parts inside the single angle quotation marks < > by the specific information for your repository.
-
-3. The README.md file (this file):
-Please edit this file as it is the primary description file for your project. You can find some placeholder titles for sections below.
-
-# Session ID - Session Title
-
-## Description
-
-This repository contains the material for the SAP TechEd 2026 session called Session ID - Session Title.  
+# JW262 | Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
 
 ## Overview
 
-This session introduces attendees to...
+In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **MCP servers by SAP** to create and modify SAP Fiori applications with the help of AI coding assistants. 
 
-## Requirements
+You will gain comprehensive knowledge of AI assisted full-stack development, and learn how to kickstart your SAP Fiori elements application development.
 
-The requirements to follow the exercises in this repository are...
+## Using AI during App Development
+
+We are using GitHub Copilot as AI client within SAP Business Application Studio (SBAS) and Anthropic Claude Sonnet/Opus LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
+
+### General steps in case of issues:
+
+[Detailed steps and examples of resolving common issues](./exercises/troubleshoot/)
+
+1. Verify connectivity:
+    - Check if your machine has network access.
+    - Confirm that the MCP server is up and running.
+
+2. Approach errors systematically
+    - Pause before panicking
+        - Use natural pauses when the client asks for approval to inspect the current results and chat history.    
+        - Stop execution with the "Cancel" button. You can always proceed from there with a new prompt
+    - Identify the source: Check if the issue is:
+        - CDS compiler error
+        - SQLite/database error
+        - Console/browser runtime error
+
+3. Using the LLM to solve an issue
+    - The LLM occasionally makes mistakes, or forgets required steps leading to error situations
+    - But the LLM can read the terminal output and react to API responses, and correct errors visible there
+    - Other issues, like from browser console output, can be resolved by copy-pasting the full error message into the chat and ask for a fix in a prompt
+    - LLM works best when exact messages are provided rather than manual descriptions.
+
+4. Use Restore Points if Needed
+    - If a solution strategy does not work, you can always restore the files and chat to a previous checkpoint using GitHub Copilot’s restore functionality.
+
+5. Don’t be afraid to retry an exercise or step after restoring to a checkpoint.
 
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+Begin your exercises here. At the end of each section, there is a link to continue to the next section.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+- [Getting Started - Set up your AI Development Environment](./exercises/ex0/)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+- [Exercise 1 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex1.0/)
+    - [Exercise 1.1 Enable automatic data loading in List Report](./exercises/ex1.1/)
+    - [Exercise 1.2 Add new column destination to list report table](./exercises/ex1.2/)
+    - [Exercise 1.3 Add Analytical chart to list report page](./exercises/ex1.3/)
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+- [Exercise 2 - Modify travel object page based on Image](./exercises/ex2.0/)
+    - [Exercise 2.1 Add Custom Section with RichTextEditor Building Block](./exercises/ex2.1/)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
+- [Exercise 3 - Add Object Page for Booking Details](./exercises/ex3.0/)
 
 ## Contributing
-Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
-
-## Code of Conduct
-Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
-
-## How to obtain support
-
-Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+If you wish to contribute code, offer fixes or improvements, please send a pull request. Due to legal reasons, contributors will be asked to accept a DCO when they create the first pull request to this project. This happens in an automated fashion during the submission process. SAP uses [the standard DCO text of the Linux Foundation](https://developercertificate.org/).
 
 ## License
-Copyright (20xx-)20xx SAP SE or an SAP affiliate company and <your-project> contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP/<your-project>).
+Copyright (c) 2026 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.

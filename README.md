@@ -1,7 +1,5 @@
 [![REUSE status](test)](test)
 
-# Hands-on | SAP TechEd 2026
-
 # JW262 | Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
 
 ## Overview

@@ -1,16 +1,18 @@
 [![REUSE status](test)](test)
 
-# JW262 | Create great UX with AI, SAP Design System, SAP Fiori elements, and SAPUI5 
+# JW262 | OData to outcomes — Build AI-enabled SAP Fiori apps using SAP Fiori elements
 
 ## Overview
 
-In this hands-on tutorial you will work through a set of exercises that highlight the benefits and capabilities of the **MCP servers by SAP** to create and modify SAP Fiori applications with the help of AI coding assistants. 
+In this hands-on tutorial you will build an SAP Fiori elements application end-to-end with the help of SAP's AI developer tooling. Starting from your data model, you will create the OData service using **SAP Cloud Application Programming Model (CAP)** and generate and refine the SAP Fiori elements UI on top of it, covering the full-stack story from service to user interface.
 
-You will gain comprehensive knowledge of AI assisted full-stack development, and learn how to kickstart your SAP Fiori elements application development.
+Throughout the exercises you work inside **SAP Business Application Studio (SBAS)**, using its **AI Chat** (powered by GitHub Copilot) with an Anthropic Claude Sonnet/Opus large language model (LLM) as your AI coding assistant. The AI is guided by **MCP servers by SAP**, namely the MCP server for CAP and the MCP server for SAP Fiori, together with a set of **skills dedicated to SAP Fiori development** that encode best practices for building Fiori elements apps.
+
+You will gain comprehensive knowledge of AI-assisted full-stack development, and learn how to kickstart your SAP Fiori elements application development.
 
 ## Using AI during App Development
 
-We are using GitHub Copilot as AI client within SAP Business Application Studio (SBAS) and Anthropic Claude Sonnet/Opus LLM (Large Language Model) throughout the exercises. When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. GitHub Copilot and the chosen LLM are powerful assistants for problem resolution.
+When developing SAP Fiori applications with LLMs, you may encounter situations where a prompt is not executed as intended, or technical errors occur when calling MCP server tools. Knowing how to approach these issues systematically can save time and prevent disruption. SBAS AI Chat and the chosen LLM are powerful assistants for problem resolution.
 
 ### General steps in case of issues:
 

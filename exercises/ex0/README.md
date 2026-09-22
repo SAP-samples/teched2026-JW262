@@ -71,20 +71,22 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/explorer.png)
 
-## Configure GitHub Copilot (AI Client)
+## Configure SBAS AI Chat (AI Client)
 
-1. Open **GitHub Copilot**.
+SAP Business Application Studio provides [AI Chat](https://help.sap.com/docs/bas/sap-business-application-studio/ai-chat) (powered by GitHub Copilot) as your AI coding assistant. You will use it throughout the exercises.
 
-    ![copilot](./images/ex0img32.png)
+1. Open **AI Chat**.
+
+    ![ai chat](./images/ex0img32.png)
 
 2. Select model **Claude 4.7 Opus (SAP Build)**.
 
-    ![copilot](./images/ex0img34.png)
+    ![ai chat](./images/ex0img34.png)
 
 
 ## Summary
 
-You have successfully set up your AI development environment with SAP Business Application Studio and configured GitHub Copilot.
+You have successfully set up your AI development environment with SAP Business Application Studio and configured its AI Chat.
 
 Continue to - [Exercise 1.0 - Create CAP Project and Fiori List Report App based on Image](../ex1.0/README.md)
 

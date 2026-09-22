@@ -57,7 +57,17 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-6. Ensure that the Projects folder has following content
+6. Download **[config.zip](../../config.zip)** to your local machine, then drag and drop it into the projects folder in SAP Business Application Studio. 
+
+7. Open a terminal and run the following command to extract:
+
+    ```bash
+    unzip config.zip
+    ```
+
+    ![image](images/unzip.png)
+
+7. Ensure that the Projects folder has following content
 
     ![image](images/explorer.png)
 

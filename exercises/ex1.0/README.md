@@ -15,6 +15,7 @@
     - Include technical key and business key for all entities.
     - Use Dollar as currency throughout the application.
     - Apply criticality for travel status
+    - Use SAPUI5 version 1.148.12 for the generated app.
 
     Create implementation plan first, then proceed with confirmation.
     Follow all instructions and consult available MCP servers.

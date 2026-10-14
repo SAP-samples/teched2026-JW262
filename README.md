@@ -1,4 +1,4 @@
-[![REUSE status](test)](test)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2026-JW262)](https://api.reuse.software/info/github.com/SAP-samples/teched2026-JW262)
 
 # JW262 | OData to outcomes — Build AI-enabled SAP Fiori apps using SAP Fiori elements
 

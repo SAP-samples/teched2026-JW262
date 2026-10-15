@@ -48,4 +48,8 @@
 
 ## Summary
 
-Congratulations, you have completed all exercises!
+Congratulations, you have completed Part 1! You built an SAP Fiori elements travel application end-to-end with the help of SAP's AI developer tooling.
+
+In Part 2, you switch from developer to end user and explore a ready-to-run SAP Fiori elements app in which AI assists the business user directly at runtime.
+
+Continue to - [Exercise 4 - Set up for Part 2: open the AI-enabled Travel app](../ex4.0/README.md)

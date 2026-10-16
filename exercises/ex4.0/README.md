@@ -28,7 +28,7 @@ Available in **SAP S/4HANA Cloud Public Edition** (release 2608 and later), on c
 | Your password | handed out by your instructor at the start of Part 2 |
 
 > [!NOTE]
-> Each participant uses an individual user. Please use the user assigned to you and do not share it, so that the travel data you create stays your own during the session.
+> Each participant uses an individual user. Please use the user assigned to you and do not share it, so that the travel data you work with stays your own during the session.
 
 ## Prerequisites
 

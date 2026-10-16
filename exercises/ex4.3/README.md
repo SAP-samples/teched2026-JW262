@@ -8,7 +8,11 @@ In the previous exercise, Easy Fill applied the end date you dictated in natural
 
 ## Reveal the error
 
-1. Ups, we maintained the end date wrong in the previous exercise. When you now try to **Save** the draft, the two date fields are highlighted as invalid and a **Messages** popover opens in the bottom left showing the error `Begin Date 19.05.2027 must not be after End Date 23.05.2026 .` under the **Travel** section.
+1. Save the Easy Fill draft from the previous exercise by clicking **Save** in the footer of the object page.
+
+    ![Save button in the object page footer](./images/ErrorExplanation_Step_0.png)
+
+2. Ups, we maintained the end date wrong in the previous exercise. The two date fields are highlighted as invalid and a **Messages** popover opens in the bottom left showing the error `Begin Date 19.05.2027 must not be after End Date 23.05.2026 .` under the **Travel** section.
 
     ![Travel object page with inconsistent dates and the Messages popover](./images/ErrorExplanation_Step_1.png)
 

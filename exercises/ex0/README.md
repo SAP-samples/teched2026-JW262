@@ -6,7 +6,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
 1. Open https://lcapteched.eu10.build.cloud.sap/lobby in a new browser window or tab, which will ask you to login.
 
-2. Enter the credentials in the SBAS browser window or tab to complete your login.
+2. Right-click the [Login File for SBAS](https://github.com/vinayhospete/Handson-connect/blob/main/hands-on-user.txt) link and select **Open Link in New Tab**, then pick the login credentials assigned to your number.
 
     <img src="./images/ex0img23.png" alt="login" width="60%"/>
 
@@ -57,17 +57,7 @@ As a participant of the hands-on tutorial, you should already be set up with acc
 
     ![image](images/ex0img28.png)
 
-6. Download **[config.zip](../../config.zip)** to your local machine, then drag and drop it into the projects folder in SAP Business Application Studio. 
-
-7. Open a terminal and run the following command to extract:
-
-    ```bash
-    unzip config.zip
-    ```
-
-    ![image](images/unzip.png)
-
-7. Ensure that the Projects folder has following content
+6. Ensure that the Projects folder has following content
 
     ![image](images/explorer.png)
 

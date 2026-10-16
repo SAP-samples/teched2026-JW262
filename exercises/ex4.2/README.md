@@ -38,8 +38,8 @@ In this exercise you will use the **AI-assisted easy fill** on the object page o
 2. Review the proposed changes. In this example the AI should have interpreted the instruction as:
     - **Agency ID** → `Happy Hopping (70003)`
     - **End Date** → `23.05.2026`
-    - Bookings for customer **Koller** → **Booking Status** `B`, **Booking Status Text** `Booked`
-    - Bookings for customer **Kreiss** → **Booking Status** `X`, **Booking Status Text** `Canceled`
+    - Bookings for customer **Koller** → **Booking Status Text** `Booked`
+    - Bookings for customer **Kreiss** → **Booking Status Text** `Canceled`
 
 ## Confirm and save
 

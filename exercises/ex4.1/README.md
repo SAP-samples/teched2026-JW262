@@ -50,7 +50,7 @@ Save the query as a variant so you can reuse it as your entry point to the appli
 
     ![Travel Management tile under Recently Used](./images/EasyFilter_Step_4e.png)
 
-3. The app now starts directly in **AI mode**, with your `My Demo View` variant active and the saved query already filled in. The Travels table below shows the filtered result.
+3. The app now starts directly in **AI mode**, with your `My Demo View` variant active and the saved query already filled in.
 
     ![App reopened with My Demo View and saved query](./images/EasyFilter_Step_4f.png)
 

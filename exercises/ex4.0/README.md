@@ -25,7 +25,7 @@ Available in **SAP S/4HANA Cloud Public Edition** (release 2608 and later), on c
 | Launchpad URL | https://my426786.s4hana.cloud.sap/ui |
 | Your user | `jw262-NNN@education.cloud.sap` |
 | User number `NNN` | assigned by your instructor, in the range `001` to `041` |
-| Your password | handed out by your instructor at the start of Part 2 |
+| Your password | from [the credentials repository](https://github.com/Sebastianwerner1985/262/blob/main/FioriAI.md) |
 
 > [!NOTE]
 > Each participant uses an individual user. Please use the user assigned to you and do not share it, so that the travel data you work with stays your own during the session.
@@ -41,7 +41,7 @@ Available in **SAP S/4HANA Cloud Public Edition** (release 2608 and later), on c
 
     ![SAP S/4HANA Cloud logon screen](./images/logon.png)
 
-2. Enter the participant user and password handed to you by your instructor and sign in.
+2. Enter the participant user and password from [the credentials repository](https://github.com/Sebastianwerner1985/262/blob/main/FioriAI.md) and sign in.
 
 3. The SAP Fiori launchpad opens and shows the **My Home** page.
 

@@ -1,33 +1,46 @@
-# Add an analytical column chart to the List Report
+# Exercise 1.3 - Add destination column to List Report table
 
-1. Create a new chat.
+**Part 1 - Build an SAP Fiori elements app with AI**
 
-    <img src="../ex1.0/images/new-task.png" alt="new task" width="60%"/>
+In this exercise you extend the generated List Report with a new **Destination** column, letting users see trip destinations directly in the table. You again drive the change through AI Chat with an implementation plan you review and confirm.
 
-2. Enter the prompt in the task input:
-    ```
-    /sap-fiori-analytical-chart
-    Add an analytical column chart to the List Report (ALP) 
-    that displays the sum of total price per destination. 
-    Show analytical chart above table.
-    ```
+Steps:
 
-3. Execute the prompt. Copilot will consult the skill on how to implement analytical charts.
+- [1.3.1 Start a new chat](#131-start-a-new-chat)
+- [1.3.2 Run the add-column prompt](#132-run-the-add-column-prompt)
+- [1.3.3 Review the implementation plan](#133-review-the-implementation-plan)
+- [1.3.4 Verify the destination column](#134-verify-the-destination-column)
 
-4. After completion, verify that the analytical chart and table are displayed on the list report page. 
+## 1.3.1 Start a new chat
 
-    ![analytical chart](./images/analytical-chart.png)
+Create a new chat.
 
-## Troubleshooting
+<img src="../ex1.2/images/new-task.png" alt="close task" width="60%"/>
 
-- If the chart is not visible on the list report page, execute the following prompt: `In Manifest, views.paths must be at the settings level, not inside controlConfiguration`
+## 1.3.2 Run the add-column prompt
 
-- If you see `[50017] - Invalid data binding`, execute the following prompt: `/sap-fiori-analytical-chart verify analytical chart implementation`
+Copy and paste the following prompt into the task input:
 
-- If you see `Invalid data - Some measures have different units` because test data might have mixed currencies, execute the following prompt: `Some measures have different units. Use Dollar as currency throughout the application`
+```
+Create and add a new column "Destination" to the list report table.
+Create implementation plan first, then proceed with confirmation.
+Consult MCP servers.
+```
+
+## 1.3.3 Review the implementation plan
+
+Execute the prompt. Copilot prepares an Implementation Plan.
+
+<img src="./images/destination.png" alt="copilot" width="60%"/>
+
+## 1.3.4 Verify the destination column
+
+After completion, verify the destination column appears in the list report.
+
+![destination column](./images/destination-column.png)
 
 ## Summary
 
-You have successfully added an analytical column chart displaying average price per destination to the List Report page.
+You have successfully added a destination column to the List Report table.
 
-Continue to - [Exercise 2.0 - Modify travel object page based on Image](../ex2.0/README.md)
+Continue to - [Exercise 1.4 - Add Analytical Chart to List Report Page](../ex1.4/README.md)

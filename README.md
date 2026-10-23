@@ -14,7 +14,7 @@ You will gain comprehensive knowledge of AI-assisted full-stack development, and
 
 The tutorial is organized in two parts:
 
-- **Part 1 - Develop with AI (build time).** In exercises 0 to 3 you build the SAP Fiori elements travel application end-to-end inside SBAS, using AI Chat, the MCP servers by SAP, and the SAP Fiori development skills as your AI-assisted toolchain.
+- **Part 1 - Develop with AI (build time).** In exercises 1 to 3 you build the SAP Fiori elements travel application end-to-end inside SBAS, using AI Chat, the MCP servers by SAP, and the SAP Fiori development skills as your AI-assisted toolchain.
 - **Part 2 - Use an AI-enabled app (runtime).** In exercise 4 you switch perspective from developer to end user and explore a ready-to-run SAP Fiori elements travel application on SAP S/4HANA Cloud. Here the AI is built into the running app itself, assisting the business user directly while working with travel data.
 
 Together, the two parts show the complete picture: how AI accelerates building a Fiori elements app, and how AI enriches the experience of using one.
@@ -57,22 +57,21 @@ Begin your exercises here. At the end of each section, there is a link to contin
 
 ### Part 1 - Build an SAP Fiori elements app with AI
 
-- [Getting Started - Set up your AI Development Environment](./exercises/ex0/)
+- [Exercise 1.0 - Set up your AI Development Environment](./exercises/ex1.0/)
+    - [Exercise 1.1 - Create a CAP project and SAP Fiori app from an image](./exercises/ex1.1/)
+    - [Exercise 1.2 - Enable automatic data loading in List Report](./exercises/ex1.2/)
+    - [Exercise 1.3 - Add destination column to List Report table](./exercises/ex1.3/)
+    - [Exercise 1.4 - Add an analytical column chart to the List Report](./exercises/ex1.4/)
 
-- [Exercise 1 - Create CAP Project and Fiori List Report App based on Image](./exercises/ex1.0/)
-    - [Exercise 1.1 Enable automatic data loading in List Report](./exercises/ex1.1/)
-    - [Exercise 1.2 Add new column destination to list report table](./exercises/ex1.2/)
-    - [Exercise 1.3 Add Analytical chart to list report page](./exercises/ex1.3/)
-
-- [Exercise 2 - Modify travel object page based on Image](./exercises/ex2.0/)
-    - [Exercise 2.1 Add Custom Section with RichTextEditor Building Block](./exercises/ex2.1/)
-
-- [Exercise 3 - Add Object Page for Booking Details](./exercises/ex3.0/)
+- [Exercise 2.0 - Modify travel object page based on image](./exercises/ex2.0/)
+    - [Exercise 2.1 - Add Custom Section with RichTextEditor Building Block](./exercises/ex2.1/)
+    
+- [Exercise 3.0 - Add Object Page for Booking Details](./exercises/ex3.0/)
 
 ### Part 2 - Explore an AI-enabled SAP Fiori elements app
 
-- [Exercise 4 - Set up for Part 2: open the AI-enabled Travel app](./exercises/ex4.0/)
-    - [Exercise 4.1 AI-assisted easy filter](./exercises/ex4.1/)
-    - [Exercise 4.2 AI-assisted easy fill](./exercises/ex4.2/)
-    - [Exercise 4.3 AI-assisted error explanation](./exercises/ex4.3/)
-    - [Exercise 4.4 AI-assisted smart summarization](./exercises/ex4.4/)
+- [Exercise 4.0 - Set up for Part 2: open the AI-enabled Travel app](./exercises/ex4.0/)
+    - [Exercise 4.1 - AI-assisted easy filter](./exercises/ex4.1/)
+    - [Exercise 4.2 - AI-assisted easy fill](./exercises/ex4.2/)
+    - [Exercise 4.3 - AI-assisted error explanation](./exercises/ex4.3/)
+    - [Exercise 4.4 - AI-assisted smart summarization](./exercises/ex4.4/)

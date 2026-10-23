@@ -22,8 +22,6 @@ Sl no | Troubleshooting Guide
 
    ![mcp servers](./images/mcp-config.png)
 
-   ![mcp servers](../ex0/images/mcp-servers.png)
-
 ---
 
 ### 3. CDS compilation error

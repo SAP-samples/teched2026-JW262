@@ -18,7 +18,7 @@ Steps:
 
 Open the **SAP Business Application Studio** lobby: <a href="https://lcapteched.eu10.build.cloud.sap/lobby" target="_blank" rel="noopener">https://lcapteched.eu10.build.cloud.sap/lobby</a>
 
-Use the login credentials assigned to your number, from <a href="https://github.com/Sebastianwerner1985/163/blob/main/BAS163.md" target="_blank" rel="noopener">the credentials repository</a>.
+Use the login credentials assigned to your number, from <a href="https://github.com/Sebastianwerner1985/262/blob/main/BAS262.md" target="_blank" rel="noopener">the credentials repository</a>.
 
 <img src="./images/ex0img23.png" alt="login" width="60%"/>
 

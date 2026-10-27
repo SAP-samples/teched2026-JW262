@@ -75,3 +75,19 @@ Begin your exercises here. At the end of each section, there is a link to contin
     - [Exercise 4.2 - AI-assisted easy fill](./exercises/ex4.2/)
     - [Exercise 4.3 - AI-assisted error explanation](./exercises/ex4.3/)
     - [Exercise 4.4 - AI-assisted smart summarization](./exercises/ex4.4/)
+
+## How to obtain support
+
+Support for the content in this repository is available during the actual time of the online session for which this content has been designed. Otherwise, you may request support via the [Issues](../../issues) tab.
+
+## Contributing
+
+Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
+
+## Code of Conduct
+
+Please read the [SAP Open Source Code of Conduct](https://github.com/SAP-samples/.github/blob/main/CODE_OF_CONDUCT.md).
+
+## License
+
+Copyright (c) 2026 SAP SE or an SAP affiliate company and teched2026-JW262 contributors. Please see our [LICENSE](LICENSE) for copyright and license information. Detailed information including third-party components and their licensing/copyright information is available [via the REUSE tool](https://api.reuse.software/info/github.com/SAP-samples/teched2026-JW262).
